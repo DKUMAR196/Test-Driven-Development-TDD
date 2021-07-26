@@ -3,11 +3,11 @@ package com.bridgelabz.test;
 import java.util.Objects;
 
 public class InvoiceSummary {
-	private final int numOfRides = 0;
+	private final int numOfRides;
 	private final double totalFare;
 	private final double averageFare;
 
-	public InvoiceSummary(int numOfRide, double totalFare) {
+	public InvoiceSummary(int numOfRides, double totalFare) {
 		
 		this.numOfRides = numOfRides;
 		this.totalFare = totalFare;
